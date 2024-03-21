@@ -155,7 +155,7 @@ function siguienteDial() {
 function verificarCodigo() {
     var now = new Date();
     // Verificar si el código es correcto
-    if (document.getElementById('dial1').innerText === '7' && document.getElementById('dial2').innerText === '29' && document.getElementById('dial3').innerText === '2' && now > new Date('2024-03-19T11:00:00')) {
+    if (document.getElementById('dial1').innerText === '7' && document.getElementById('dial2').innerText === '29' && document.getElementById('dial3').innerText === '2' && now > new Date('2024-03-27T11:40:00')) {
         // Cambiar imagen de la caja
         document.getElementById('dial1').classList.remove('marcado');
         document.getElementById('dial2').classList.remove('marcado');
